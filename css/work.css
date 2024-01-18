@@ -1,0 +1,56 @@
+div.work{
+    text-align: center;
+    padding-top: 126px;
+}
+div.work>div.workPhoto{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 48px 24px 156px 24px;
+}
+div.work>div.workPhoto>a>img{
+    width: 100%;
+}
+div.work>div.workPhoto>a>img:hover{
+    opacity: 0.5;
+}
+div.work>div.skills{
+    display: flex;
+    background-color: rgba(219, 218, 218, 0.781);
+    text-align: left;
+    padding: 48px 16px;
+}
+div.work>div.skills>div.ourSkills{
+    flex: 1;
+    padding: 16px;
+}
+div.work>div.skills>div.design{
+    flex: 1;
+    padding: 16px;
+}
+div.work>div.skills>div.design>p{
+    text-align: left;
+    line-height: 24px;
+}
+div.work>div.skills>div.design>div{
+    background-color: rgb(134, 134, 134);
+   /* width: 100%; */
+   height: 24px;
+}
+div.work>div.skills>div.design>div>div.photography{
+    background-color: rgb(107, 106, 106);
+    width: 90%;
+    text-align: center;
+   height: 24px;
+}
+div.work>div.skills>div.design>div>div.webDesign{
+    background-color: rgb(107, 106, 106);
+    width: 85%;
+    text-align: center;
+   height: 24px;
+}
+div.work>div.skills>div.design>div>div.photoshop{
+    background-color: rgb(107, 106, 106);
+    width: 75%;
+    text-align: center;
+   height: 24px;
+}

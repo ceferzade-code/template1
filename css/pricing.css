@@ -1,0 +1,67 @@
+div.pricing {
+  text-align: center;
+  background-color: rgb(109, 109, 109);
+  margin: 0;
+  padding: 36px 0px;
+  
+}
+div.pricing>h3{
+    color: white;
+    padding-top: 36px;
+}
+div.pricing>p{
+    color: white;
+    padding: 16px;
+}
+div.pricing > div.pricingPlan {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding:24px;
+  align-items: center;
+}
+
+div.pricing > div.pricingPlan>div{
+    margin: 8px;
+    background-color: white;
+  
+}
+div.pricing > div.pricingPlan>div.basic>h3{
+background-color: black;
+color: white;
+padding-block: 36px;
+
+margin: 0;
+}
+div.pricing > div.pricingPlan>div.pro>h3{
+background-color: rgb(241, 41, 6);
+padding-block: 48px;
+}
+div.pricing > div.pricingPlan>div.basic>p{
+    padding-block: 14px;
+    border-bottom: 1px solid rgba(218, 215, 215, 0.705);
+}
+
+div.pricing > div.pricingPlan>div.basic>div.perMonth{
+    border-bottom: 1px solid rgba(218, 215, 215, 0.705);
+}
+div.pricing > div.pricingPlan>div.basic>div.perMonth>b{
+    font-size: 24px;
+}
+div.pricing > div.pricingPlan>div.basic>div.perMonth>p{
+    color: rgba(0, 0, 0, 0.5);
+}
+div.pricing > div.pricingPlan>div.basic>div.signUp{
+    background-color: rgb(214, 213, 213);
+    padding-block: 24px;
+}
+div.pricing > div.pricingPlan>div.basic>div.signUp>a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 16px;
+    display: inline-block;
+}
+div.pricing > div.pricingPlan>div.basic>div.signUp>a:hover{
+    background-color: rgb(168, 168, 168);
+    color: black;
+}

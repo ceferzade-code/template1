@@ -1,0 +1,72 @@
+div.afterTeam {
+  padding-top: 128px;
+}
+div.afterTeam > h1 {
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 24px;
+}
+div.afterTeam > p {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 48px;
+}
+div.team {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding-inline: 16px;
+  padding-block-end: 128px;
+  gap: 16px;
+  text-align: center;
+}
+/* div.john{
+ flex: 1;
+
+}
+div.anja{
+    flex: 1;
+}
+div.mike{
+    flex: 1;
+}
+div.dan{
+    flex: 1;
+}  */
+div.team > div > img {
+  /* overflow: auto; */
+  width: 100%;
+  filter: grayscale(.8);
+}
+
+div.team > div > a {
+  text-decoration: none;
+  background-color: #d4d3d3;
+  color: black;
+  text-align: center;
+ display: block;
+ margin-inline: 8px;
+ padding-block: 12px;
+}
+div.team > div > a:hover {
+  background-color: #a09d9d;
+}
+div.teamEnd {
+  background-color: rgb(105, 104, 104);
+  color: white;
+  display: flex;
+}
+div.teamEnd > div > p {
+  font-size: 56px;
+  /* display: inline-block; */
+  margin-bottom: 0;
+}
+div.teamEnd > div > pre {
+  font-size: 18px;
+}
+div.teamEnd > div {
+  flex: 25%;
+  text-align: center;
+}
+/* .teamImages{
+    width: 25%;
+} */

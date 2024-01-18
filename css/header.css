@@ -1,0 +1,29 @@
+header{
+display: flex;
+position: sticky;
+left: 0;
+right: 0;
+top: 0;
+background-color: white;
+z-index: 1;
+}
+header>a{
+letter-spacing: 8px;
+}
+header >div{
+flex: 1;
+display: flex;
+justify-content: end;
+}
+/* header>div>a{
+
+} */
+header a{
+text-decoration: none;
+color: black;
+padding: 16px;
+}
+header a:hover{
+background-color: #cccccc
+;
+}

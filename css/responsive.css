@@ -1,0 +1,30 @@
+@media (max-width:1000px){
+    div.afterTeam > div.team{
+        grid-template-columns: auto auto;
+    }
+    div.work > div.workPhoto{
+        grid-template-columns: auto auto;
+        gap: 8px;
+
+    }
+}
+@media (max-width:600px) {
+    div.afterTeam > div.team{
+        grid-template-columns: auto;
+    }
+    div.work > div.workPhoto{
+        grid-template-columns: auto;
+    }
+    div.work>div.skills{
+        flex-direction: column;
+    }
+    div.pricing > div.pricingPlan{
+        grid-template-columns: auto;
+    }
+    div.beforeCompany > div.company,div.afterKnow{
+        flex-direction: column;
+    }
+    div.teamEnd{
+        flex-direction: column;
+    }
+}
